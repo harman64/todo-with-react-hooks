@@ -1,0 +1,40 @@
+.app {
+    background: #209cee;
+    padding: 30px;
+    height: 100vh;
+  }
+  
+  .todo-list {
+    background: #e8e8e8;
+    border-radius: 4px;
+    padding: 1vh;
+    max-width: 100%;
+  }
+  
+  .todo{
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    padding: 3px 10px;
+    font-size: 18px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .todoForm {
+    background: #209CEE;
+    padding: 30px 3px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+  }
+
+  .todoForm input {
+      padding: 0;
+      margin: 0;
+      border: 1px solid #209CEE;
+      min-width: 40%;
+      min-height: 30px;
+  }
